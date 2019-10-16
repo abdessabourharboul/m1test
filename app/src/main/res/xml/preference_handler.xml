@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:title="@string/first_pref"
+        app:key="@string/first_pref_clef" />
+
+    <EditTextPreference
+        android:defaultValue="14"
+        android:title="@string/second_pref"
+        app:key="@string/second_pref_clef" />
+
+
+    <PreferenceScreen android:title="PIN" app:key="pin_cle">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="@string/first_pref"
+            app:key="@string/first_pref_clef" />
+
+        <EditTextPreference
+            android:defaultValue="14"
+            android:title="@string/second_pref"
+            app:key="@string/second_pref_clef" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

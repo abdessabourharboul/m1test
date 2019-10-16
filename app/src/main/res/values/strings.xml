@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TpContacts</string>
+
+    <string name="nom_prenom">Nom ou prénom</string>
+    <string name="search">Rechercher</string>
+
+
+    <string name="launch_settings">Lancer Les Paramètres</string>
+    <string name="Settings">Paramètres</string>
+
+
+    <string name="first_pref_clef">clef_1</string>
+    <string name="second_pref_clef">clef_2</string>
+
+    <string name="first_pref">Ma premiere preference</string>
+    <string name="second_pref">Saisir la taille de la police</string>
+
+    <string name="preferences">Preferences</string>
+</resources>
